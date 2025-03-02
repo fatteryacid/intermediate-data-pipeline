@@ -1,0 +1,201 @@
+cust_id,comp_nm,cust_typ,ind,rgn_id,cred_lim,pmt_terms,actstat
+1,Peak Industries,Wholesale,Manufacturing,5,6000,Net 90,TRUE
+2,Prime Innovations,Enterprise,Healthcare,3,5000,Net 60,FALSE
+3,Tech Networks,Enterprise,Finance,1,9000,Immediate,FALSE
+4,Peak Enterprises,Wholesale,Finance,3,4000,Net 30,TRUE
+5,Global Solutions,Retail,Finance,4,1000,Immediate,TRUE
+6,Tech Solutions,Retail,Technology,5,3000,Net 90,TRUE
+7,Summit Innovations,Wholesale,Technology,4,3000,Immediate,TRUE
+8,BlueWave Networks,Enterprise,Retail,3,4000,Immediate,TRUE
+9,BlueWave Enterprises,Wholesale,Manufacturing,3,4000,Net 30,TRUE
+10,BlueWave Industries,Enterprise,Manufacturing,4,6000,Net 90,TRUE
+11,Tech Systems,Retail,Retail,1,7000,Net 90,FALSE
+12,Prime Technologies,Retail,Technology,3,9000,Net 90,FALSE
+13,Infinity Networks,Wholesale,Finance,4,0,Immediate,FALSE
+14,Peak Dynamics,Wholesale,Technology,5,2000,Net 90,TRUE
+15,Summit Consulting,Wholesale,Technology,1,5000,Immediate,TRUE
+16,Vortex Systems,Wholesale,Technology,2,8000,Net 90,TRUE
+17,Peak Technologies,Wholesale,Technology,1,4000,Immediate,FALSE
+18,Prime Dynamics,Wholesale,Manufacturing,3,1000,Net 60,TRUE
+19,Global Ventures,Enterprise,Healthcare,4,2000,Net 30,TRUE
+20,Pioneer Ventures,Enterprise,Retail,3,6000,Net 30,FALSE
+21,BlueWave Consulting,Enterprise,Healthcare,2,2000,Net 30,TRUE
+22,Tech Solutions,Wholesale,Technology,1,9000,Immediate,FALSE
+23,Vortex Technologies,Wholesale,Manufacturing,3,2000,Immediate,TRUE
+24,NextGen Solutions,Wholesale,Finance,1,3000,Net 60,FALSE
+25,Peak Innovations,Retail,Retail,3,9000,Net 60,FALSE
+26,Peak Networks,Enterprise,Healthcare,4,6000,Net 30,FALSE
+27,Prime Industries,Enterprise,Retail,4,6000,Immediate,FALSE
+28,Prime Ventures,Wholesale,Technology,4,3000,Net 60,TRUE
+29,Peak Solutions,Retail,Manufacturing,2,1000,Net 60,FALSE
+30,Vortex Networks,Wholesale,Finance,4,6000,Net 60,FALSE
+31,Peak Industries,Wholesale,Manufacturing,4,9000,Immediate,TRUE
+32,Prime Innovations,Retail,Technology,4,1000,Immediate,FALSE
+33,Prime Ventures,Retail,Retail,3,1000,Net 60,TRUE
+34,BlueWave Innovations,Enterprise,Healthcare,5,4000,Net 60,TRUE
+35,Summit Enterprises,Retail,Manufacturing,5,4000,Net 60,FALSE
+36,Infinity Innovations,Wholesale,Healthcare,4,9000,Net 60,TRUE
+37,Vortex Dynamics,Enterprise,Technology,1,3000,Net 90,FALSE
+38,Global Technologies,Retail,Technology,5,2000,Net 60,FALSE
+39,Peak Networks,Wholesale,Healthcare,5,7000,Net 60,FALSE
+40,Peak Consulting,Enterprise,Technology,5,5000,Net 90,FALSE
+41,Infinity Enterprises,Enterprise,Healthcare,4,3000,Immediate,FALSE
+42,Prime Systems,Enterprise,Healthcare,2,7000,Net 60,FALSE
+43,Prime Technologies,Wholesale,Technology,3,2000,Immediate,FALSE
+44,Pioneer Innovations,Enterprise,Finance,3,6000,Net 60,FALSE
+45,Peak Industries,Wholesale,Manufacturing,1,3000,Net 30,TRUE
+46,Summit Ventures,Retail,Retail,3,2000,Net 90,FALSE
+47,Vortex Consulting,Wholesale,Finance,1,2000,Net 30,TRUE
+48,Prime Industries,Wholesale,Retail,4,0,Net 30,TRUE
+49,Summit Dynamics,Enterprise,Healthcare,1,7000,Net 30,TRUE
+50,Vortex Dynamics,Retail,Healthcare,4,0,Net 90,TRUE
+51,Tech Consulting,Wholesale,Finance,3,3000,Net 90,FALSE
+52,Tech Industries,Retail,Technology,3,2000,Net 30,FALSE
+53,Prime Networks,Retail,Technology,1,9000,Net 60,FALSE
+54,Peak Dynamics,Enterprise,Finance,4,4000,Net 30,TRUE
+55,Pioneer Solutions,Retail,Technology,5,4000,Net 30,TRUE
+56,BlueWave Enterprises,Retail,Finance,1,8000,Net 90,FALSE
+57,Pioneer Solutions,Retail,Retail,4,7000,Net 30,FALSE
+58,Summit Innovations,Retail,Manufacturing,2,0,Immediate,FALSE
+59,BlueWave Innovations,Enterprise,Healthcare,4,0,Net 90,FALSE
+60,Prime Consulting,Retail,Finance,1,5000,Net 30,FALSE
+61,Summit Ventures,Wholesale,Finance,2,2000,Net 30,FALSE
+62,Summit Solutions,Enterprise,Manufacturing,4,5000,Net 60,FALSE
+63,Prime Networks,Wholesale,Manufacturing,3,1000,Net 30,TRUE
+64,NextGen Dynamics,Enterprise,Manufacturing,1,1000,Immediate,FALSE
+65,Tech Enterprises,Wholesale,Retail,2,7000,Net 60,FALSE
+66,Tech Solutions,Wholesale,Healthcare,5,1000,Net 30,FALSE
+67,Global Technologies,Wholesale,Finance,5,3000,Net 90,FALSE
+68,Global Consulting,Retail,Healthcare,5,4000,Net 30,FALSE
+69,Global Industries,Wholesale,Manufacturing,4,7000,Net 60,FALSE
+70,Pioneer Systems,Wholesale,Technology,4,8000,Net 60,FALSE
+71,BlueWave Industries,Wholesale,Retail,5,7000,Net 30,FALSE
+72,Tech Solutions,Wholesale,Healthcare,5,7000,Immediate,TRUE
+73,Global Enterprises,Wholesale,Technology,5,6000,Net 30,TRUE
+74,Peak Enterprises,Retail,Finance,4,1000,Net 90,TRUE
+75,Tech Industries,Wholesale,Retail,5,2000,Net 90,TRUE
+76,Peak Enterprises,Retail,Retail,1,6000,Net 30,FALSE
+77,Pioneer Ventures,Retail,Technology,2,9000,Net 60,TRUE
+78,Peak Consulting,Wholesale,Retail,3,7000,Immediate,FALSE
+79,Global Systems,Wholesale,Retail,3,0,Net 90,TRUE
+80,Vortex Ventures,Enterprise,Manufacturing,4,1000,Immediate,FALSE
+81,Peak Consulting,Enterprise,Finance,2,2000,Net 30,TRUE
+82,Summit Innovations,Retail,Finance,5,2000,Immediate,FALSE
+83,Tech Technologies,Enterprise,Technology,4,6000,Immediate,TRUE
+84,NextGen Innovations,Wholesale,Finance,2,6000,Immediate,TRUE
+85,Infinity Innovations,Retail,Technology,5,9000,Net 60,FALSE
+86,Peak Consulting,Enterprise,Manufacturing,3,6000,Net 90,TRUE
+87,Vortex Technologies,Wholesale,Finance,3,2000,Net 60,TRUE
+88,Infinity Enterprises,Enterprise,Healthcare,5,8000,Net 90,FALSE
+89,Summit Networks,Wholesale,Manufacturing,5,9000,Net 30,FALSE
+90,Vortex Technologies,Retail,Healthcare,5,5000,Net 90,FALSE
+91,Global Dynamics,Wholesale,Technology,5,2000,Net 30,FALSE
+92,Infinity Consulting,Retail,Healthcare,4,5000,Immediate,FALSE
+93,NextGen Industries,Retail,Finance,4,5000,Immediate,TRUE
+94,Summit Ventures,Wholesale,Technology,2,9000,Net 90,FALSE
+95,Vortex Consulting,Enterprise,Technology,4,9000,Net 30,TRUE
+96,Peak Dynamics,Retail,Manufacturing,4,8000,Net 90,TRUE
+97,NextGen Networks,Wholesale,Retail,4,5000,Net 60,TRUE
+98,Tech Consulting,Retail,Healthcare,3,3000,Immediate,FALSE
+99,Peak Networks,Retail,Retail,4,1000,Immediate,TRUE
+100,Prime Technologies,Retail,Finance,5,5000,Net 90,TRUE
+101,Peak Solutions,Enterprise,Technology,4,8000,Net 90,FALSE
+102,Prime Solutions,Wholesale,Finance,2,6000,Net 90,FALSE
+103,Infinity Systems,Retail,Retail,5,8000,Immediate,TRUE
+104,Global Networks,Wholesale,Manufacturing,4,0,Immediate,FALSE
+105,Pioneer Technologies,Wholesale,Healthcare,2,7000,Net 90,TRUE
+106,Peak Systems,Enterprise,Technology,1,2000,Immediate,FALSE
+107,Infinity Technologies,Enterprise,Technology,3,8000,Net 90,FALSE
+108,Prime Dynamics,Enterprise,Technology,4,6000,Immediate,TRUE
+109,Summit Dynamics,Wholesale,Manufacturing,1,9000,Net 30,FALSE
+110,Pioneer Enterprises,Retail,Retail,3,9000,Net 90,TRUE
+111,Pioneer Networks,Wholesale,Finance,2,8000,Net 90,TRUE
+112,BlueWave Technologies,Enterprise,Retail,5,1000,Net 90,FALSE
+113,NextGen Dynamics,Retail,Healthcare,5,0,Immediate,TRUE
+114,NextGen Industries,Retail,Finance,4,3000,Net 90,FALSE
+115,Vortex Consulting,Retail,Manufacturing,2,3000,Net 90,FALSE
+116,Infinity Innovations,Wholesale,Manufacturing,2,3000,Net 30,TRUE
+117,BlueWave Enterprises,Enterprise,Technology,3,3000,Net 90,FALSE
+118,Summit Consulting,Retail,Retail,1,8000,Net 90,FALSE
+119,BlueWave Technologies,Enterprise,Healthcare,5,1000,Immediate,FALSE
+120,NextGen Solutions,Retail,Healthcare,5,2000,Net 30,FALSE
+121,NextGen Dynamics,Enterprise,Retail,1,4000,Immediate,TRUE
+122,Peak Networks,Wholesale,Technology,3,2000,Net 90,TRUE
+123,NextGen Industries,Retail,Retail,5,2000,Immediate,TRUE
+124,Summit Solutions,Retail,Retail,5,0,Immediate,FALSE
+125,Vortex Dynamics,Enterprise,Manufacturing,4,2000,Immediate,FALSE
+126,NextGen Technologies,Enterprise,Finance,4,7000,Net 30,FALSE
+127,Prime Consulting,Wholesale,Manufacturing,5,1000,Immediate,FALSE
+128,Peak Enterprises,Retail,Finance,2,4000,Net 90,FALSE
+129,Peak Networks,Wholesale,Finance,4,8000,Net 90,TRUE
+130,Infinity Innovations,Wholesale,Retail,3,2000,Net 90,TRUE
+131,Vortex Innovations,Wholesale,Retail,1,8000,Net 90,TRUE
+132,BlueWave Solutions,Wholesale,Retail,3,5000,Immediate,TRUE
+133,Vortex Technologies,Wholesale,Finance,1,5000,Net 60,FALSE
+134,Pioneer Solutions,Retail,Retail,5,0,Net 90,FALSE
+135,Tech Enterprises,Wholesale,Retail,1,7000,Net 60,FALSE
+136,Vortex Networks,Retail,Healthcare,3,0,Net 30,TRUE
+137,Tech Dynamics,Retail,Retail,4,7000,Net 30,TRUE
+138,Infinity Solutions,Retail,Manufacturing,3,0,Net 90,TRUE
+139,Global Systems,Retail,Manufacturing,2,4000,Net 90,FALSE
+140,Tech Dynamics,Wholesale,Healthcare,4,6000,Immediate,FALSE
+141,Peak Industries,Retail,Retail,5,1000,Net 30,FALSE
+142,BlueWave Innovations,Enterprise,Retail,3,8000,Net 60,FALSE
+143,Summit Dynamics,Enterprise,Finance,2,2000,Net 90,TRUE
+144,Tech Networks,Enterprise,Manufacturing,5,4000,Net 60,FALSE
+145,NextGen Consulting,Enterprise,Retail,3,2000,Net 60,TRUE
+146,Vortex Solutions,Enterprise,Technology,1,5000,Immediate,TRUE
+147,Summit Networks,Retail,Manufacturing,1,7000,Immediate,FALSE
+148,Tech Ventures,Wholesale,Technology,2,3000,Net 90,FALSE
+149,Pioneer Solutions,Enterprise,Finance,4,9000,Net 90,TRUE
+150,Prime Industries,Retail,Technology,3,0,Immediate,FALSE
+151,Vortex Enterprises,Enterprise,Healthcare,4,1000,Net 90,TRUE
+152,Pioneer Consulting,Retail,Healthcare,4,9000,Immediate,TRUE
+153,NextGen Ventures,Retail,Healthcare,1,7000,Net 60,FALSE
+154,Peak Consulting,Wholesale,Technology,4,2000,Net 90,TRUE
+155,Infinity Networks,Wholesale,Finance,1,1000,Net 90,FALSE
+156,Summit Networks,Wholesale,Retail,5,3000,Net 60,FALSE
+157,Vortex Ventures,Enterprise,Retail,3,8000,Net 60,FALSE
+158,Tech Ventures,Retail,Healthcare,1,9000,Net 30,FALSE
+159,Prime Dynamics,Wholesale,Retail,5,7000,Net 60,TRUE
+160,BlueWave Enterprises,Enterprise,Manufacturing,4,8000,Net 60,TRUE
+161,BlueWave Technologies,Retail,Manufacturing,3,4000,Net 60,TRUE
+162,NextGen Ventures,Retail,Manufacturing,2,4000,Immediate,FALSE
+163,Infinity Ventures,Wholesale,Finance,2,3000,Net 90,TRUE
+164,NextGen Solutions,Wholesale,Manufacturing,1,2000,Immediate,FALSE
+165,Prime Dynamics,Retail,Healthcare,5,5000,Net 60,FALSE
+166,Tech Networks,Enterprise,Technology,2,1000,Immediate,TRUE
+167,Summit Innovations,Enterprise,Healthcare,3,5000,Net 60,TRUE
+168,Vortex Ventures,Retail,Finance,5,7000,Net 90,FALSE
+169,Summit Industries,Wholesale,Healthcare,5,8000,Net 60,FALSE
+170,BlueWave Ventures,Wholesale,Technology,5,5000,Net 90,TRUE
+171,BlueWave Enterprises,Retail,Healthcare,4,0,Net 90,FALSE
+172,Peak Solutions,Enterprise,Manufacturing,5,5000,Net 60,TRUE
+173,Infinity Industries,Wholesale,Manufacturing,3,2000,Immediate,FALSE
+174,NextGen Enterprises,Retail,Retail,3,9000,Net 90,FALSE
+175,Infinity Solutions,Wholesale,Finance,4,5000,Net 90,TRUE
+176,Global Solutions,Enterprise,Retail,3,3000,Immediate,TRUE
+177,Summit Solutions,Retail,Healthcare,2,3000,Net 30,FALSE
+178,Vortex Enterprises,Enterprise,Healthcare,1,8000,Net 60,TRUE
+179,Pioneer Industries,Enterprise,Manufacturing,1,0,Net 30,TRUE
+180,Prime Enterprises,Wholesale,Finance,4,9000,Immediate,TRUE
+181,Peak Industries,Retail,Retail,1,6000,Net 30,TRUE
+182,Global Innovations,Wholesale,Finance,1,5000,Net 90,TRUE
+183,Prime Ventures,Wholesale,Healthcare,1,2000,Immediate,TRUE
+184,Peak Consulting,Enterprise,Healthcare,1,4000,Immediate,FALSE
+185,NextGen Dynamics,Wholesale,Retail,3,0,Immediate,TRUE
+186,Summit Dynamics,Retail,Manufacturing,4,1000,Net 60,TRUE
+187,Pioneer Enterprises,Wholesale,Technology,4,2000,Immediate,FALSE
+188,Peak Industries,Wholesale,Retail,4,0,Net 30,FALSE
+189,Tech Industries,Enterprise,Retail,2,7000,Immediate,FALSE
+190,Prime Enterprises,Retail,Manufacturing,1,2000,Net 90,TRUE
+191,Global Industries,Wholesale,Manufacturing,1,3000,Net 60,TRUE
+192,Prime Technologies,Enterprise,Manufacturing,3,2000,Net 30,FALSE
+193,Tech Innovations,Retail,Finance,4,1000,Net 30,TRUE
+194,Infinity Enterprises,Retail,Technology,5,5000,Net 30,FALSE
+195,Tech Consulting,Retail,Retail,5,6000,Net 60,TRUE
+196,Prime Industries,Retail,Healthcare,3,8000,Immediate,TRUE
+197,NextGen Solutions,Enterprise,Finance,5,6000,Net 30,FALSE
+198,NextGen Dynamics,Retail,Retail,4,9000,Immediate,TRUE
+199,Infinity Dynamics,Enterprise,Manufacturing,2,9000,Net 90,FALSE
+200,NextGen Solutions,Retail,Finance,3,7000,Net 60,TRUE

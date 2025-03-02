@@ -1,0 +1,26 @@
+CREATE OR REPLACE TABLE `sandbox-data-pipelines.sales_silver.dim_products_daily`
+(
+    product_id                          INTEGER,
+    product_name                        STRING,
+    product_category_id                 INTEGER,
+    product_subcategory_id              INTEGER,
+    product_unit_cost                   FLOAT64,
+    product_list_price                  FLOAT64,
+    product_stock_min                   INTEGER,
+    product_stock_max                   INTEGER,
+    product_stock_current               INTEGER,
+    is_product_manufactured_inhouse     BOOLEAN,
+    product_complexity_score            FLOAT64,
+    supplier_id                         FLOAT64,
+    supplier_part_number                STRING,
+    supplier_company_name               STRING,
+    supplier_contact_name               STRING,
+    supplier_payment_terms              STRING,
+    supplier_lead_time                  INTEGER,
+    supplier_is_active                  BOOLEAN,
+    supplier_is_preferred               BOOLEAN,
+    supplier_currency_code              STRING,
+    supplier_last_order_date            DATE,
+    execution_ts                        TIMESTAMP,
+)
+PARTITION BY TIMESTAMP_TRUNC(execution_ts, DAY)
