@@ -1,12 +1,17 @@
 # Intermediate Data Pipeline
 
-## Project summary
-This project contains a data pipeline that lands and models data from 5 raw data sources using a medallion architecture.
+## Project Summary
+This project contains a data pipeline that models mock product sales data in a data warehouse for efficient, reliable, and scalable analytics.
+
+Data provided simulates a raw extraction from an ERP (enterprise resource planning software) for a retailer that  manufactures some products in-house and purchases others from suppliers.
 ## Purpose
-The purpose of this project is to build a data pipeline with relational data in order to support data modeling.
+The purpose of this project is to implement a data model to answer sales-related business questions such as:
+- What is the margin by product category?
+- What are the products with highest return rate?
+- How do discounts impact sales?
+- Who are the most profitable customers?
 ## High Level Architecture
 ![architecture-diagram](/docs/architecture.jpg)
-
 This data pipeline follows an ELT paradigm using Google Cloud Platform, written in an Airflow framework. Data flows from CSV files in Google Cloud Storage into bronze, silver, and gold layers in BigQuery.
 ## High Level Data Model
 ![data-model](/docs/data-model.jpg)
@@ -20,14 +25,6 @@ Within BigQuery, data is modeled following a medallion architecture. The logical
 - **Gold**: Aggregated tables, or any other reporting/dashboard-ready tables. 
 	- This layer will serve as the main working layer for analytical functions, with tables built to be pulled into dashboards or sheets quickly.
 	- Meant to be read/write for analysts, BI developers, etc.
-## Getting Started
-Although the keys used to run this project are not provided, Airflow setup is available using the following procedures.
-1. Run `cd app` to change to `app/` directory.
-2. Run `docker compose build` to build the Docker image.
-3. Run `docker compose up -d` to run the Docker image detached.
-4. Navigate to `localhost:8080` to view Airflow instance.
-	- Username and password are: `airflow`
-5. Close with `docker compose down`.
 ## Design Decisions
 | Decision                                                | **Rationale**                                                                                                                                                                                                                                                   | **Tradeoff**                                                                                                                                                                                                                                                                                                                               |
 | ------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -84,3 +81,11 @@ SELECT
 	*
 FROM gold_view
 ```
+## Getting Started
+Although the keys used to run this project are not provided, Airflow setup is available using the following procedures.
+1. Run `cd app` to change to `app/` directory.
+2. Run `docker compose build` to build the Docker image.
+3. Run `docker compose up -d` to run the Docker image detached.
+4. Navigate to `localhost:8080` to view Airflow instance.
+	- Username and password are: `airflow`
+5. Close with `docker compose down`.
